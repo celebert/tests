@@ -1,0 +1,96 @@
+/* home */
+.ant-form-item-label {
+  text-align: left !important;
+}
+
+.ant-input-number {
+  width: 100% !important;
+}
+
+.ant-btn-primary {
+  width: 100%;
+}
+
+.center-div {
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .seats-one-row .ant-form-item-label,
+  .seats-one-row .ant-form-item-control {
+    flex: 1 !important;
+    max-width: 100%;
+  }
+  .ant-form-item-control-input {
+    min-height: 40px !important;
+  }
+}
+
+/* theater */
+
+.room-grid {
+  display: inline-grid;
+}
+
+.cell {
+  border: 1px solid black;
+  min-height: 85%;
+  min-width: 85%;
+  place-self: center;
+}
+
+.cell-p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.theater-page .ant-row {
+  justify-content: center;
+}
+
+.center {
+  display: flex !important;
+  align-items: center;
+}
+
+.scrollbar {
+  overflow-x: scroll;
+}
+.scrollbar::-webkit-scrollbar {
+  width: 1em;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
+.screen {
+  margin: 15px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  background: black;
+  color: white;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 575px) {
+  .screen {
+    margin: 10px 0;
+  }
+}
+/* summary */
+.summary-info {
+  padding: 100px 0;
+}
+.summary-seats {
+  font-weight: 400 !important;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 1096px) {
+  .summary-info {
+    padding: 35px 0;
+  }
+}
