@@ -11,7 +11,7 @@ import {
 } from "./features/homeSlice";
 import { useSelector, useDispatch } from "react-redux";
 import "./App.css";
-const url = "http://localhost:3004/seats";
+const url = "https://api.jsonbin.io/b/60b1177a893b7c555b1dbb7e";
 
 function App() {
   const { Content } = Layout;
